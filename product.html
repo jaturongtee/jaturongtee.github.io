@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jshop</title>
+    <!--font-awsome-start-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--font-awsome-end-->
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <a href="index.html">
+          <h1>JSHOP</h1>
+        </a>
+        <div class="menubar">
+          <a href="index.html"><p>Home</p></a>
+          <a href="product.html"><p>product</p></a><a href="#"><p>contact</p></a>
+<div class="search">
+          <input
+            type="text"
+            class="menubar-search"
+            placeholder="Search here..."
+          />
+          <button class="searchbtn">Search</button>
+</div>
+        </div>
+        <div class="nav-profile">
+          <p>cart</p>
+          <div class="nav-profile-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <div class="cartcount">0</div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="product-container">
+      <div class="listproduct">
+        <div class="item">
+          <img src="/imgs/watch1.jpg" alt="" />
+          <h2>Watch 1</h2>
+          <div class="price">1500 THB</div>
+          <button>Add To Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart-container">
+      <h2 style="padding: 20px;">CART</h2>
+      <div class="listcart">
+        
+      </div>
+      <div class="buttons">
+        <div class="close">CLOSE</div>
+        <div class="checkout"><a href="checkout.html" target="_blank">CHECKOUT</a></div>
+      </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>

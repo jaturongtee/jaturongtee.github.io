@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "name" : "watch1",
+        "price" : 1300,
+        "image" : "imgs/watch1.jpg"
+    },
+    {
+        "id" : 2,
+        "name" : "watch2",
+        "price" : 1400,
+        "image" : "imgs/watch2.jpg"
+    },
+    {
+        "id" : 3,
+        "name" : "watch3",
+        "price" : 1500,
+        "image" : "imgs/watch3.jpg"
+    },
+    {
+        "id" : 4,
+        "name" : "watch4",
+        "price" : 1600,
+        "image" : "imgs/watch4.jpg"
+    },
+    {
+        "id" : 5,
+        "name" : "watch5",
+        "price" : 1700,
+        "image" : "imgs/watch5.jpg"
+    },
+    {
+        "id" : 6,
+        "name" : "watch6",
+        "price" : 1800,
+        "image" : "imgs/watch6.jpg"
+    }
+]
